@@ -1,0 +1,24 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 0;
+}
+
+.item {
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  width: 120px;
+  height: 48px;
+  color: azure;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item:hover {
+  background-color: azure;
+  color: royalblue;
+  border: 2px solid royalblue;
+}

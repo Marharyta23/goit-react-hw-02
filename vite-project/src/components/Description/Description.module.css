@@ -1,0 +1,14 @@
+.description {
+  color: rgb(69, 96, 113);
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  color: rgb(4, 30, 56);
+  margin-top: 36px;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
