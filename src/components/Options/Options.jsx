@@ -1,6 +1,6 @@
 import css from "./Options.module.css";
 
-function Options({ updateFunction, total }) {
+function Options({ updateFunction, reset, total }) {
   let ifFeedbackExist;
   if (total === 0) {
     ifFeedbackExist = false;
@@ -38,11 +38,7 @@ function Options({ updateFunction, total }) {
       </li>
       {ifFeedbackExist && (
         <li>
-          <button
-            className={css.item}
-            type="button"
-            onClick={() => updateFunction("reset")}
-          >
+          <button className={css.item} type="button" onClick={reset}>
             Reset
           </button>
         </li>
